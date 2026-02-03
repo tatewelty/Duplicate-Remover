@@ -4,7 +4,7 @@ from tkinter import filedialog
 import tkinter.messagebox as messagebox
 from pathlib import Path
 import os
-from Deduper import hash_file, collect_files, find_duplicates, scan_for_duplicates, delete_duplicates
+from src.Deduper import hash_file, collect_files, find_duplicates, scan_for_duplicates, delete_duplicates
 
 ## start app
 root = tk.Tk()
